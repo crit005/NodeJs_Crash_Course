@@ -1,0 +1,12 @@
+install nodemon
+npm install -D nodemon // Insatall as dependencies
+
+To run nodmon as dev
+-Edeit package.json
+"scripts": {
+    "start":"node index",
+    "dev": "nodemon index"
+  },
+
+-Command prompt
+npm run dev
